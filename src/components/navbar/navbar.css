@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbarMainContainer {
+  border-bottom: 1px solid white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 50px ;
+}
+.logoImg {
+  width: 50px;
+}

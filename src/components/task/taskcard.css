@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.taskContainer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  overflow: auto; 
+}
+.iconsContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.taskTitle {
+  width: 400px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.taskCompleted {
+  text-decoration: line-through;
+}
